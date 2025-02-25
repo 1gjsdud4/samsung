@@ -31,7 +31,7 @@ survey_data, voc_data = load_data()
 import streamlit as st
 import time
 
-@st.dialog("📚 필요한 교육 내용", width="large")
+@st.dialog("📚 필요한 교육 내용 분석", width="large")
 def show_education_modal():
     st.markdown("### 📚 AI가 교육 내용을 분석 중...")
 
@@ -81,7 +81,7 @@ st.set_page_config(page_title="삼성 세일즈 교육 대시보드", layout="wi
 st.image("logo.png", width=100)
 st.markdown(f"<h1 style='text-align: center; color: {PRIMARY_COLOR};'>삼성 세일즈 교육 대시보드</h1>", unsafe_allow_html=True)
 
-if st.button("📚 필요 교육 내용 보기"):
+if st.button("📚 필요 교육 내용 분석석"):
     show_education_modal()
 
 
