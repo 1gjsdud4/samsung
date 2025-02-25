@@ -1,0 +1,11 @@
+langchain==0.3.17
+python-dotenv==1.0.1
+langchain_openai==0.3.4
+pinecone==6.0.1
+pinecone[grpc]==6.0.1
+langgraph==0.2.74
+matplotlib 
+seaborn 
+wordcloud 
+openpyxl
+streamlit == 1.42.0 # 프로토타입 실행시
